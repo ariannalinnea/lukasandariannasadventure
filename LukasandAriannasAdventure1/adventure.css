@@ -1,0 +1,128 @@
+body{
+	background-color: black;
+}
+
+#gameBoard{
+	border: 1px solid black;
+	display: grid;
+	grid-template-columns: 120px 120px 120px 120px 120px;
+	grid-template-rows: 120px 120px 120px 120px 120px;
+	justify-content: center;
+	width: 600px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#gameBoard div{
+	background-color: #00EE00;
+}
+
+.rider{
+  background-image:url("images/rider.png");
+}
+.tree{
+	background-image:url("images/tree.png");
+}
+.rock{
+	background-image:url("images/rock.png");
+}
+.flag{
+	background-image:url("images/flag.png");
+}
+.water{
+	background-image:url("images/water.png");
+}
+.fence{
+	background-image:url("images/fence.png");
+}
+.fenceside{
+	background-image:url("images/fenceSide.png");
+}
+.charup{
+	background-image:url("images/mainCharacterUp.png");
+}
+.chardown{
+	background-image:url("images/mainCharacterDown.png");
+}
+.charleft{
+	background-image:url("images/mainCharacterL.png");
+}
+.charright{
+	background-image:url("images/mainCharacterR.png");
+}
+.enemyup{
+	background-image:url("images/enemyU.png");
+}
+.enemydown{
+    background-image:url("images/enemyD.png");	
+}
+.enemyleft{
+	background-image:url("images/enemyL.png");
+}
+.enemyright{
+	background-image:url("images/enemyR.png");
+}
+.charrideup{
+	background-image:url("images/mainCharacterRider.png");
+}
+.charridedown{
+	background-image:url("images/mainCharacterRiderD.png");
+}
+.charrideleft{
+	background-image:url("images/mainCharacterRiderL.png");
+}
+.charrideright{
+	background-image:url("images/mainCharacterRiderR.png");
+}
+.overfenceup{
+	background-image:url("images/fenceJump.png");
+}
+.overfencedown{
+	background-image:url("images/fenceJumpD.png");
+}
+.overfenceleft{
+	background-image:url("images/fenceJumpL.png");
+}
+.overfenceright{
+	background-image:url("images/fenceJumpR.png");
+}
+.bridge{
+	background-color:#800020 !important;
+}
+
+.message {
+  display:none;
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.8);
+  color:white;  
+  font-family:Verdana,sans-serif;
+  font-size:8em;
+  vertical-align:top;
+  text-align:center;
+  line-height:100vh;
+}
+
+.end {
+  display:none;
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,100,0,0.8);
+  color:white;  
+  font-family:Verdana,sans-serif;
+  font-size:20px;
+  vertical-align:top;
+  text-align:center;
+  line-height:100vh;
+}
+
+
+
